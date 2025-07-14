@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Malla Horizontal - Ana Jiménez</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #fff0f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #db7093;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .container {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            padding: 20px;
+        }
+        .year-column {
+            min-width: 250px;
+            margin-right: 20px;
+            background-color: #ffe4e1;
+            border-radius: 10px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            flex-shrink: 0;
+        }
+        .year-title {
+            background-color: #f4a6b3;
+            padding: 15px;
+            font-size: 18px;
+            text-align: center;
+            border-radius: 10px 10px 0 0;
+            color: #fff;
+        }
+        .course {
+            padding: 10px;
+            margin: 10px;
+            border-left: 4px solid;
+            border-radius: 4px;
+        }
+        .basica { border-color: #ffb6c1; background-color: #fff5f8; }
+        .profesional { border-color: #db7093; background-color: #ffeef3; }
+        .clinica { border-color: #c71585; background-color: #ffe6f0; }
+        .practica { border-color: #ff69b4; background-color: #ffeff7; }
+        .link {
+            font-size: 12px;
+            display: block;
+            margin-top: 5px;
+            color: #c71585;
+            text-decoration: none;
+        }
+        .link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+<header>
+    Malla de Enfermería - Ana Jiménez (Horizontal)
+</header>
+
+<div class="container">
+    <div class="year-column">
+        <div class="year-title">Primer Año</div>
+        <div class="course basica">Anatomía Humana <a href="#" class="link">Apuntes</a></div>
+        <div class="course basica">Fisiología General <a href="#" class="link">Apuntes</a></div>
+        <div class="course basica">Fundamentos de Enfermería <a href="#" class="link">Apuntes</a></div>
+        <div class="course basica">Salud Pública I <a href="#" class="link">Apuntes</a></div>
+        <div class="course basica">Comunicación en Salud <a href="#" class="link">Apuntes</a></div>
+    </div>
+    <div class="year-column">
+        <div class="year-title">Segundo Año</div>
+        <div class="course profesional">Microbiología y Parasitología <a href="#" class="link">Apuntes</a></div>
+        <div class="course profesional">Farmacología Básica <a href="#" class="link">Apuntes</a></div>
+        <div class="course profesional">Cuidado del Adulto I <a href="#" class="link">Apuntes</a></div>
+        <div class="course profesional">Salud Pública II <a href="#" class="link">Apuntes</a></div>
+        <div class="course basica">Bioética <a href="#" class="link">Apuntes</a></div>
+    </div>
+    <div class="year-column">
+        <div class="year-title">Tercer Año</div>
+        <div class="course clinica">Cuidado del Adulto II <a href="#" class="link">Apuntes</a></div>
+        <div class="course clinica">Salud Mental <a href="#" class="link">Apuntes</a></div>
+        <div class="course profesional">Metodología de la Investigación <a href="#" class="link">Apuntes</a></div>
+        <div class="course clinica">Cuidado Materno Infantil <a href="#" class="link">Apuntes</a></div>
+        <div class="course profesional">Urgencias y Emergencias <a href="#" class="link">Apuntes</a></div>
+    </div>
+    <div class="year-column">
+        <div class="year-title">Cuarto Año</div>
+        <div class="course clinica">Cuidado del Niño <a href="#" class="link">Apuntes</a></div>
+        <div class="course clinica">Cuidado del Adulto Mayor <a href="#" class="link">Apuntes</a></div>
+        <div class="course practica">Práctica Clínica I <a href="#" class="link">Apuntes</a></div>
+        <div class="course profesional">Gestión en Enfermería <a href="#" class="link">Apuntes</a></div>
+    </div>
+    <div class="year-column">
+        <div class="year-title">Quinto Año</div>
+        <div class="course practica">Internado Profesional <a href="#" class="link">Apuntes</a></div>
+        <div class="course practica">Tesis o Proyecto de Título <a href="#" class="link">Apuntes</a></div>
+        <div class="course practica">Práctica Clínica II <a href="#" class="link">Apuntes</a></div>
+    </div>
+</div>
+
+</body>
+</html>
